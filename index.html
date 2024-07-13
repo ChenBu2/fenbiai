@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>粉笔AI Coming Soon</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="keywords" content="Coming soon, under Construction">
+	<meta name="description" content="Coming Soon - Free Under Construction Website Template with Countdown">
+	<link rel="stylesheet" type="text/css" href="fonts/icomoon.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+</head>
+
+<style type="text/css">
+	body {
+		font-family: "Roboto", sans-seriff;
+		color: #fff;
+		margin: 0;
+		background: url(images/new_bg.jpg) no-repeat;
+	}
+
+	body::before {
+		content: "";
+		/* 伪元素必须包含内容，即使它是空的 */
+		position: absolute;
+		/* 相对于body定位 */
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.7);
+		/* 创建一个半透明的黑色蒙版 */
+		z-index: -1;
+		/* 确保蒙版在内容之下 */
+		pointer-events: none;
+		/* 防止蒙版影响鼠标事件 */
+	}
+
+	a,
+	button {
+		transition: 0.3s all ease-out;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #fff;
+	}
+
+	textarea:focus,
+	input:focus {
+		outline: none;
+	}
+
+	#body-wrap {
+		/* padding: 100px 20px; */
+	}
+
+	.container {
+		margin: 50px auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	header#header {
+		margin-bottom: 120px;
+	}
+
+	.main-content h1 {
+		font-size: 3em;
+		font-weight: 800;
+		margin-bottom: 0;
+	}
+
+	.main-content p {
+		font-size: 1em;
+		margin: 0;
+		color: #aaa;
+	}
+
+	#form .form-group {
+		display: flex;
+		justify-content: center;
+		margin: 20px 0;
+	}
+
+	input::placeholder {
+		color: #949393;
+	}
+
+	.form-group input.form-control {
+		width: 250px;
+		height: 50px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		padding-left: 20px;
+		border: none;
+	}
+
+	.form-group button.submit-button {
+		padding: 18px 30px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		background-color: #0043ee;
+		border: none;
+		cursor: pointer;
+		color: #fff;
+	}
+
+	.form-group button.submit-button:hover {
+		background-color: #222630;
+	}
+
+	.form-group button.submit-button span {
+		font-weight: 700;
+		padding-left: 5px;
+	}
+
+	#footer .social-links {
+		padding-top: 40px;
+	}
+
+	#footer .social-links ul {
+		display: flex;
+		justify-content: center;
+		list-style: none;
+	}
+
+	#footer .social-links li {
+		padding-right: 20px;
+	}
+
+	#footer .social-links ul a {
+		font-size: 1.6em;
+		text-decoration: none;
+	}
+
+	#footer .social-links .logo img {
+		width: 100px;
+		height: 100px;
+		object-fit: cover;
+	}
+
+	.copyright {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		color: #aaa;
+		padding: 10px 0;
+	}
+
+	@media (max-width: 768px) {
+		header#header {
+			margin-bottom: 50px;
+		}
+
+		#body-wrap {
+			padding: 0px 20px;
+		}
+
+		#countdown-clock>.time {
+			padding: 14px;
+		}
+
+		.form-group button.submit-button {
+			width: 140px;
+			padding: 18px 9px;
+		}
+	}
+</style>
+
+<body>
+
+	<div id="body-wrap">
+		<div class="container">
+
+			<header id="header">
+				<div class="logo">
+					<img src="images/logo.jpg" alt="logo">
+				</div>
+			</header>
+
+			<div class="main-content light">
+
+				<div class="page-title">
+
+					<h1>粉笔AI 即将发布</h1>
+					<h3>2024-07-20 20:00 星期六</h3>
+
+				</div><!--page-title-->
+
+				<form id="form">
+
+					<p>世界的中心 你说的算</p>
+
+				</form>
+
+			</div><!--main-content-->
+
+			<footer id="footer" class="light">
+
+				<div class="social-links">
+					<ul>
+						<li>
+							<div class="logo">
+								<img src="images/logo.jpg" alt="logo">
+							</div>
+							<p>粉笔AI</p>
+						</li>
+						<li>
+							<div class="logo">
+								<img src="images/gzh.jpg" alt="logo">
+							</div>
+							<p>公众号</p>
+						</li>
+						<li>
+							<div class="logo">
+								<img src="images/wz.jpg" alt="logo">
+							</div>
+							<p>官网</p>
+						</li>
+						<li>
+							<div class="logo">
+								<img src="images/qq.jpg" alt="logo">
+							</div>
+							<p>QQ群</p>
+						</li>
+					</ul>
+				</div><!--social-links-->
+
+				<div class="copyright">
+					<p>Copyright © 2014-2024 北京字节码科技信息有限公司 版权所有</p>
+				</div>
+
+			</footer>
+
+		</div>
+	</div><!--body-wrap-->
+
+
+	<script type="text/javascript">
+
+	</script>
+
+
+</body>
+
+</html>
