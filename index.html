@@ -195,8 +195,8 @@
 
 				<div class="page-title">
 
-					<h1>粉笔AI 即将发布</h1>
-					<h3>2024-07-20 20:00 星期六</h3>
+					<h1>粉笔AI</h1>
+					<!-- <h3>2024-07-20 20:00 星期六</h3> -->
 
 				</div><!--page-title-->
 
@@ -246,34 +246,14 @@
 			</footer>
 
 		</div>
-	</div><!--body-wrap-->
+	</div>body-wrap
 
 
 	<script type="text/javascript">
 		// 页面加载时执行的函数  
         window.onload = function() {  
-            // 获取当前日期  
-            var today = new Date();  
-  
-            // 设置今天晚上的时间为8点（假设用户的本地时间是正确的）  
-            // 注意：月份是从0开始的，所以0代表1月，11代表12月  
-            // 我们将分钟、秒和毫秒都设置为0  
-            today.setHours(20, 0, 0, 0);  
-  
-            // 获取这个时间的时间戳  
-            var tonight8pmTimestamp = today.getTime();  
-  
-            // 检查当前时间是否晚于今天晚上8点  
-            var now = new Date().getTime();  
-            if (now >= tonight8pmTimestamp) {  
-                // 跳转到新网站  
-                window.location.href = 'https://www.martbyte.com';  
-            }  
-  
-            // 注意：这个解决方案只在页面加载时检查一次时间。  
-            // 如果用户在8点之前打开了页面并保持打开状态，  
-            // 那么即使时间超过了8点，页面也不会自动刷新或跳转，  
-            // 除非用户刷新了页面或重新打开它。  
+			window.location.href = 'https://www.martbyte.com';  
+
         };  
 		var _hmt = _hmt || [];
 		(function () {
